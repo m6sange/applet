@@ -1,0 +1,7 @@
+/* pages/favor/favor.wxss */
+.counter {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 24px;
+  color: red;
+}

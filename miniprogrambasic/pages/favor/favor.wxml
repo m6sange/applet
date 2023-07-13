@@ -1,0 +1,19 @@
+<!--pages/favor/favor.wxml-->
+<!-- 数据绑定 -->
+<text>{{message }}</text>
+
+<!-- 列表渲染 -->
+<!-- wx:key="*this"改善性能 -->
+<view class="subject">
+<block wx:for="{{subjects}}" wx:key="*this">
+  <view>{{index}}.{{item}}</view>
+</block>
+</view>
+
+<!-- 事件绑定 -->
+
+<view class="counter">
+  <view>{{num}}</view>
+  <button size="mini" type="primary" bindtap="increment">+</button>
+  <button size="mini" type="warn" bindtap="decrement">-</button>
+</view>

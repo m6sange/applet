@@ -1,0 +1,45 @@
+{
+  "pages": [ 
+    "pages/index/index",
+    "pages/favor/favor",
+    "pages/contact/contact",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "m6",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#BFBFBF",
+    "selectedColor": "#515151",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "assets/icons/home.png",
+      "selectedIconPath": "assets/icons/home_active.png"
+    },
+    {
+      "pagePath": "pages/favor/favor",
+      "text": "收藏",
+      "iconPath": "assets/icons/star.png",
+      "selectedIconPath": "assets/icons/star_active.png"
+    },
+    {
+      "pagePath": "pages/contact/contact",
+      "text": "联系",
+      "iconPath": "assets/icons/contact.png",
+      "selectedIconPath": "assets/icons/contact_active.png"
+    },
+    {
+      "pagePath": "pages/mine/mine",
+      "text": "我的",
+      "iconPath": "assets/icons/mine.png",
+      "selectedIconPath": "assets/icons/mine_active.png"
+    }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
